@@ -55,7 +55,7 @@ body{
 }
 
 .overview p{
-  width:500px;
+  width:400px;
   text-align: center;
 
 }
@@ -233,4 +233,22 @@ footer{
   background-color: rgba(0, 0, 0, 0.719);
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    width: 100%;
+  }
+
+  .homepage, .overview,  {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .overview p{
+    width: 400px;
+  }
+
+
+
 }
